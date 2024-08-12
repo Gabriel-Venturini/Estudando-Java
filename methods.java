@@ -41,6 +41,14 @@ public class methods {
 
         String userSurname = surname.nextLine(); // read user input
         
+        // to avoid resource leak in scanner
+        // we need to close it using scannerName.close()
+        // but the problem is that the scanner wont be
+        // able to be accessed again
+
+        // close the scanner
+        surname.close();
+
         return "Your surname is: " + userSurname;
     }
 }
