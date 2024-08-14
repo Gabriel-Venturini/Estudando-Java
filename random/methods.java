@@ -1,3 +1,4 @@
+package random;
 import java.util.Scanner; // import scanner class
 
 public class methods {

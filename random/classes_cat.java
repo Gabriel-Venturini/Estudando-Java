@@ -1,3 +1,4 @@
+package random;
 public class classes_cat {
     // this serves as a blueprint/interface of a cat
     // so its not an object itself but it can be

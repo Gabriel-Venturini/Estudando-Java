@@ -1,3 +1,4 @@
+package random;
 public class classes {
     // the thing here is that this class is public
     // so it can be accessed anywhere in the folder
@@ -8,8 +9,8 @@ public class classes {
         // call an method from classes_cat.java
         // without instatiating an object
         // we are able to do it bcs its a static method
-        classes_cat.meow();
-
+        // classes_cat.meow();
+        
         // we can create a new object using classes
         // Example
 

@@ -1,3 +1,4 @@
+package random;
 public class variable_types {
     public static void main(String[] args) {
         // some basic variable types
